@@ -22,13 +22,13 @@ while(1):
     autho="Bearer "+token
     print("autho= ",autho)
     headers = {
-        'Accept': 'application/json',
-        'Referer': 'https://www.aqi.in/live-stream',
-        'Origin': 'https://www.aqi.in/live-stream',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-        'serialNo': 'PLLODA000301',
-        'Authorization': autho,
-        'Content-Type': 'application/json',
+ 'Accept': 'application/json',
+'Authorization': autho,
+'Content-Type': 'application/json',
+'Origin': 'https://www.aqi.in',
+'Referer': 'https://www.aqi.in/live-stream',
+'serialNo': 'PLLODA000302',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.3'
     }
 
     response = requests.get('https://api.aqi.in/webAPI/api/protected/getDevicePage', headers=headers)
