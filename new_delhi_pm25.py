@@ -24,9 +24,9 @@ while(1):
     headers = {
         'Accept': 'application/json',
         'Referer': 'https://www.aqi.in/live-stream',
-        'Origin': 'https://www.aqi.in',
+        'Origin': 'https://www.aqi.in/live-stream',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-        'serialNo': 'PLLODA000302',
+        'serialNo': 'PLLODA000301',
         'Authorization': autho,
         'Content-Type': 'application/json',
     }
